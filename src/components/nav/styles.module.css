@@ -1,0 +1,47 @@
+* {
+
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  font-weight: 400;
+
+}
+.navContainer {
+  display: flex;
+  align-items: center;
+  gap: 109px;
+  background-color: #cde7ff;
+  padding: 30px 100px;
+  width: 100%;
+}
+
+.navMenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navMenu div {
+  display: flex;
+  align-items: center;
+}
+.navMenu div:first-child {
+  gap: 53px;
+}
+.navMenu div:first-child a {
+  font-weight: 600;
+
+}
+.navMenu div:last-child {
+  gap: 39px;
+}
+.logoImg {
+  width: 111px;
+  height: 40px;
+}
+.loginBtn{
+    border: none;
+    width: 65px;
+    height: 44px;
+    background-color: #ffffff;
+    color: rgb(39, 64, 89, 0.85);
+   cursor: pointer;
+}

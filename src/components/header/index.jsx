@@ -11,13 +11,14 @@ function Header() {
     //любая логика в будущем
     console.log('Должность:', position);
     console.log('Город/страна:', location);
-    
+    setPosition("")
+    setLocation("")
   };
   return (
     <div className={styles.headerContainer}>
       <Nav />
       <div className={styles.mainContainerHeader}>
-        <h1 style={{ fontSize: "64px", fontWeight: "700" }}>
+        <h1 style={{ fontSize: "64px", fontWeight: "700" ,width:"100%"}}>
           {" "}
           One click <br />
           and work in your pocket{" "}

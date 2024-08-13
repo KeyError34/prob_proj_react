@@ -1,0 +1,19 @@
+.WeHelpYouFndJobContainer,
+.WeHelpYouFndJobContainer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.WeHelpYouFndJobContainer ul{
+    gap: 56px;flex-wrap: wrap;
+}
+.WeHelpYouFndJobContainer{
+    padding:  30px 107px 83px;
+    
+}
+.WeHelpYouFndJobContainer li>img{
+width: 111px;
+height: 41px;
+}

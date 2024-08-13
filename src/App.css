@@ -5,5 +5,10 @@
     text-decoration: none;
     border: none;
     outline: none;
+    list-style-type: none;
     -webkit-tap-highlight-color: transparent;
+    
+  }
+  .App{
+    width: 100%;
   }

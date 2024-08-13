@@ -8,7 +8,7 @@
   flex-direction: column;
   background-color: #cde7ff;
   /* position: relative; */
-  
+  height: max-content;
   width: 100%;
   overflow: hidden;
  

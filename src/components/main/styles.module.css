@@ -1,0 +1,27 @@
+.mainContainer h3:not(:first-child){
+  font-weight: 700;
+  font-size: 20px;
+  background-color: rgba(228, 242, 255, 1);
+  padding-top: 107px;
+  padding-left: 101px;
+  padding-bottom: 43px;
+  
+}
+.mainExsBtnContainer{
+    display: flex;
+    justify-content: center;
+    padding: 107px 0;
+    background-color: rgba(228, 242, 255, 1);
+   
+}
+
+.mainNewVacanciesList,
+.categoryCardContainer{
+    padding-top: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 92px;
+    background-color: rgba(228, 242, 255, 1);
+    padding:0px 101px ; 
+    /* padding:  ; */
+}
